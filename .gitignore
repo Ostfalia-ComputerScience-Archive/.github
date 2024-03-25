@@ -1,0 +1,80 @@
+############################################################
+################# GITIGNORE: PROJECT LEVEL #################
+############################################################
+
+
+
+# |---------------------- Build Tools ---------------------|
+# General
+target/
+# Markdown Export
+*.html
+*.pdf
+
+
+
+# |----------------- Build Generated Files ----------------|
+bin/
+build/
+target/
+out/
+
+
+
+# |-------------------- Compiled Files --------------------|
+*.pdf
+
+
+
+# |---------------------- Log Files ----------------------|
+*.log
+
+
+
+# |---------------- IDE Configuration Files ---------------|
+# IntelliJ
+.idea/
+.run/
+*.iml
+*.ipr
+*.iws
+# Eclipse
+.settings/
+.classpath
+.project
+# VS Code
+.vscode/
+
+
+
+# |--------------------- Package Files --------------------|
+*.zip
+*.tar.gz
+*.rar
+*.nar
+
+
+
+# |---------------- Version Control System ----------------|
+*.nokeep
+
+
+
+# |------------------- Operating System -------------------|
+# Linux
+*~
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.ini
+*.lnk
+
+
+
+# |--------------------- Miscellaneous --------------------|
+*.env
+
+
+
+############################################################
